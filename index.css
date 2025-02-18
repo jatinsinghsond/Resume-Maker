@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+#firstheading {
+  color: white;
+  background-color: gray;
+  margin: 0;
+  margin-top: 5px;
+  border: 2px solid;
+  &:hover {
+    color: gray;
+    background-color: white;
+    border: 2px solid grey;
+  }
+}
+
+.container1 {
+  width: 60%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px solid lightgray;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.container2 {
+  width: 85%;
+  display: none;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding-left: 35px;
+  padding-right: 30px;
+  border: 1px solid #000;
+}
+#button {
+  color: white;
+  background-color: gray;
+  font-size: large;
+  font-weight: 700;
+  padding: 5px 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border:none;
+  &:hover {
+    color: gray;
+    background-color: white;
+    border: 2px solid grey;
+  }
+}
+h1,
+h2 {
+  text-align: center;
+}
+.personal-info,
+.section {
+  margin-bottom: 20px;
+}
+.personal-info p,
+.section p {
+  margin: 5px 0;
+}
+.heading {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.personal-profile table {
+  width: 60%;
+  border-collapse: collapse;
+}
+.personal-profile table,
+.personal-profile th,
+.personal-profile td {
+  border: 1px solid #000;
+}
+.personal-profile th,
+.personal-profile td {
+  padding: 8px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .container1 {
+    height: 129vh;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .container1 {
+    width: 100%;
+    height: 130vh;
+}
+.container2 table{
+  width: 100%;
+}
+}
+@media only screen and (max-width: 376px) {
+  .container1 {
+    height: 128vh;
+    width: 102%;
+}
+}
+@media only screen and (max-width: 321px) {
+  .container1 {
+    height: 134vh;
+    width: 125%;
+}
+}
